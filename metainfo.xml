@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Extension>
+
+	<name>seoassistant</name>
+	<version>0.1</version>
+	<title>SEO助手</title>
+	
+
+	<class>org.opencomb.seo.assistant.SeoAssistant</class>
+	<package folder="/class" namespace="org.opencomb.seo.assistant" />
+
+	<template folder="/template" />
+	
+	<publicFolder folder="/public" />
+		
+	<require type="extension" item="coresystem"><![CDATA[ =0.2 ]]></require>
+	
+</Extension>
